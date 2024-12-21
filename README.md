@@ -1,16 +1,3 @@
-# grocery_item
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Project to Calculate the total cost of grocery items inside the used Map.
+Adding TaxRate with default amount 10% (0.10) as const not final as i don't need to get it's value when runtime.
+Project will print and calculate the total price before the adding tax in variable (totalPrice) and after adding the tax in (totalPriceWithTax)
